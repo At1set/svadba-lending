@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 180px;
+
+  // .footer__container
+  .footer &__container {
+    text-align: center;
+    background-color: #fcd765;
+    padding-bottom: 50px;
+  }
+
+  // .footer__details
+  &__details {
+    display: flex;
+    flex-direction: column;
+
+    span,
+    a {
+      color: currentColor;
+    }
+
+    a {
+      margin-top: 8px;
+    }
+  }
+}
+
+.end-words {
+  max-width: 333px;
+  margin: 0 auto;
+  margin-top: 85px;
+}

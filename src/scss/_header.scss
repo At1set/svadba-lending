@@ -1,0 +1,23 @@
+@use "./_variables.scss" as *;
+
+.header {
+  // .header__container
+  &__container.section-container {
+    padding-top: 235px;
+    text-align: center;
+    margin-bottom: 195px;
+  }
+
+  // .header__title
+  &__title.section-title {
+    h1 {
+      font-size: 96px;
+    }
+  }
+
+  // .header__subtitle
+  &__subtitle {
+    margin-top: 28px;
+    font-size: 20px;
+  }
+}
