@@ -1,5 +1,4 @@
 node_modules/
 package-lock.json
 pnpm-lock.yaml
-pnpm-workspase.yaml
-dist
+pnpm-workspace.yaml
